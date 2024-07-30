@@ -1,0 +1,85 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+body{
+    background-color: #d14d726b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table#pagamento{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+table#pagamento2{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+table#rifa{
+    background-color:#fae5e8;
+    width: 494px;
+    box-shadow: 20px 20px 20px#c98994cb;
+    border-radius: 10px;
+}
+td#cabecalho{
+    font: normal 63px forte;
+    color: #8D3A23;
+    text-align: center;
+}
+div.linhaimpar, div.linhapar{
+    display: inline-block;
+    font: normal 16px Lucida Sans;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+div{
+    display: inline-block;
+}
+div#premio{
+    color: #8D3A23;
+    font: normal 55px Forte ;
+    margin-left: 15px;
+}
+div#valor{
+    font: normal 40px Forte;
+    color:#8D3A23;
+    border: 3px solid #D14D72 ;
+    border-radius: 25px;
+    float: right;
+    margin-right: 20px;
+}
+div#informacoes{
+    color: #8D3A23;
+    font: normal 23px forte;
+    margin-left: 15px;
+}
+div#informacoes2{
+    color: #8D3A23;
+    font: normal 15px forte;
+    border: 2px solid ;
+    border-radius: 8px;
+    text-align: center;
+    width: 180px;
+    float: right;
+}
+div.linhaimpar, div.linhapar:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
